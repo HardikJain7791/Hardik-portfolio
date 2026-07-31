@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | Hardik's Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- HEADER NAVIGATION -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo">Hardik<span>DEV</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Me</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section-title">Get In Touch</h1>
+      <p class="section-subtitle">Send me a message or connect with me below:</p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+
+        <!-- Contact Details -->
+        <div>
+          <div class="card" style="margin-bottom: 1rem;">
+            <h3 style="color: #818cf8; margin-bottom: 0.5rem;">✉️ Email Address</h3>
+            <p style="color: #cbd5e1;">hardik.dev.contact@example.com</p>
+          </div>
+
+          <div class="card" style="margin-bottom: 1rem;">
+            <h3 style="color: #818cf8; margin-bottom: 0.5rem;">📍 Location</h3>
+            <p style="color: #cbd5e1;">India • Learning & Remote Opportunities</p>
+          </div>
+
+          <div class="card">
+            <h3 style="color: #818cf8; margin-bottom: 0.5rem;">🌐 Social Links</h3>
+            <p style="color: #cbd5e1;">
+              <a href="https://github.com" target="_blank"
+                style="color: #6366f1; font-weight: bold; margin-right: 1rem;">GitHub &rarr;</a>
+              <a href="https://linkedin.com" target="_blank" style="color: #6366f1; font-weight: bold;">LinkedIn
+                &rarr;</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Simple Contact Form -->
+        <div class="card">
+          <h2 style="color: #ffffff; margin-bottom: 1rem; font-size: 1.4rem;">Send a Message</h2>
+          <form action="#" method="GET">
+            <div class="form-group">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex Johnson" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="e.g. alex@example.com"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Write your message here..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Hardik. Built with HTML5 & CSS3.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
